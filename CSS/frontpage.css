@@ -90,9 +90,17 @@
     padding-left: 12rem;
 }
 
+.velgOss .medium-title {
+    padding-bottom: .8rem;
+}
+
+.velgOss article {
+    margin: 6% 0%;
+}
+
 .om ul {
     list-style: none;
-    padding: 0;
+    padding: 0 0 .7rem;
     gap: 1rem;
 }
 
