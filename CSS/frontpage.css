@@ -1,6 +1,7 @@
 .hero {
     width: 100%;
     position: relative;
+    background-color: #fefefe;
 }
 
 .hero img {
@@ -9,19 +10,100 @@
 
 .hero-text {
     position: absolute;
-    top: 35%;
-    padding-left: 10rem;
+    top: 30%;
+    padding-left: 8rem;
     color: #FEFEFE;
 }
 
 .hero-text .big-title {
     display: flex;
-    font-size: 3.2rem;
+    font-size: 2rem;
 }
 
 .hero-text p {
     width: 30%;
     color: #FEFEFE;
     padding: 1.5rem 0rem 2.8rem;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
+}
+
+/* TJENESTER */
+
+.tjenester {
+    padding: 6rem 8rem 7rem;
+    background-color: #fefefe;
+}
+
+.tjenester p {
+    width: 60%;
+    padding: 1.5rem 0rem 2.4rem;
+    line-height: 1.7;
+}
+
+.tjenester-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 350px;
+    gap: 3rem;
+}
+
+.tjeneste {
+    position: relative;
+}
+
+.tjeneste:hover {
+    transform: translateY(-7px);
+    transition: .4s;
+}
+
+.tjeneste img {
+    border-radius: 15px;
+}
+
+.tjenester-tittel {
+    border-radius: 0px 0px 15px 15px;
+    background-color: #212121;
+    color: #FEFEFE;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 25%;
+    font-size: 1.1rem;
+}
+
+/* OM OSS */
+
+.om {
+    padding: 5rem 12rem;
+    background-color: #F3F3F3;
+    display: flex;
+}
+
+.om img {
+    width: 40%;
+    height: 35rem;
+    border-radius: 15px;
+}
+
+.velgOss {
+    width: 60%;
+    padding-left: 12rem;
+}
+
+.om ul {
+    list-style: none;
+    padding: 0;
+    gap: 1rem;
+}
+
+.om ul li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.1rem;
+}
+
+.fa-circle-check {
+    color: #f5b32d;
+    font-size: 1.7rem;
 }

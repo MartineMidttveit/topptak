@@ -22,24 +22,28 @@
 
 <!--HEADER-->
 
-<header class="flex-space">
-    <a href="/HTML/index.html" class="logo-container">
-        <figure class="logo flex-center column">
-            <img src="/IMAGES/logo.png" alt="ToppTak logo">
-            <figcaption>
-                ToppTak
-            </figcaption>
-        </figure>
-    </a>
-    <nav class="nav-bar">
-        <a href="/HTML/index.html" class="nav-link">HJEM</a>
-        <a href="/HTML/index.html" class="nav-link">KONTAKT</a>
-        <a href="/HTML/index.html" class="nav-link">OM OSS</a>
-        <a href="/HTML/index.html" class="nav-link">TJENESTER</a>
-    </nav>
+<header>
+    <div class="header-content wrapper flex-space">
+        <a href="/HTML/index.html" class="logo-container">
+            <figure class="logo">
+                <img src="/IMAGES/logo.png" alt="ToppTak logo">
+                <figcaption>
+                    ToppTak
+                </figcaption>
+            </figure>
+        </a>
+        <nav class="nav-bar">
+            <a href="/HTML/index.html" class="nav-link">HJEM</a>
+            <a href="/HTML/index.html" class="nav-link">KONTAKT</a>
+            <a href="/HTML/index.html" class="nav-link">OM OSS</a>
+            <a href="/HTML/index.html" class="nav-link">TJENESTER</a>
+        </nav>
+    </div>
 </header>
 
 <!--HERO-->
+
+<main class="wrapper">
 
 <section class="hero">
     <img src="/IMAGES/hero.png" alt="">
@@ -56,7 +60,81 @@
 
 <!--VÅRE TJENESTER-->
 
-<main></main>
+<section class="tjenester">
+    <h2 class="medium-title">VÅRE TJENESTER</h2>
+    <p>
+        Vi kan tilby et bredt utvalg av varer og utførelser. Alt innen tradisjonelt blikkenslager håndverk. 
+        Vi hos ToppTak ønsker at kunden får akkurat det den er ute etter. 
+        <a href="/HTML/tjenester.html" class="underline">Les mer om våre tjenester her.</a>
+    </p>
+
+    <div class="tjenester-grid">
+        <figure class="tjeneste size">
+            <a href="/HTML/tjenester.html">
+                <img src="/IMAGES/tak.png" alt="" class="size">
+                <figcaption class="tjenester-tittel flex-center">
+                    TAKTEKKING & MEMBRAN
+                </figcaption>
+            </a>
+        </figure>
+
+        <figure class="tjeneste size">
+            <a href="/HTML/tjenester.html">
+                <img src="/IMAGES/tak.png" alt="" class="size">
+                <figcaption class="tjenester-tittel flex-center">
+                    TAKTEKKING & MEMBRAN
+                </figcaption>
+            </a>
+        </figure>
+
+        <figure class="tjeneste size">
+            <a href="/HTML/tjenester.html">
+                <img src="/IMAGES/tak.png" alt="" class="size">
+                <figcaption class="tjenester-tittel flex-center">
+                    TAKTEKKING & MEMBRAN
+                </figcaption>
+            </a>
+        </figure>
+
+        <figure class="tjeneste size">
+            <a href="/HTML/tjenester.html">
+                <img src="/IMAGES/tak.png" alt="" class="size">
+                <figcaption class="tjenester-tittel flex-center">
+                    TAKTEKKING & MEMBRAN
+                </figcaption>
+            </a>
+        </figure>
+    </div>
+</section>
+
+<!--OM OSS-->
+
+<section class="om">
+    <img src="/IMAGES/om.png" alt="">
+    <div class="velgOss">
+        <h2 class="medium-title">HVORFOR VELGE OSS?</h2>
+
+        <ul class="column">
+            <li><i class="fa-solid fa-circle-check"></i>PROFESJONELT TEAM</li>
+            <li><i class="fa-solid fa-circle-check"></i>MINIMUM RESPONSTID</li>
+            <li><i class="fa-solid fa-circle-check"></i>LEVERING DIREKTE TIL DEG</li>
+            <li><i class="fa-solid fa-circle-check"></i>OPPTATT AV KVALITET</li>
+            <li><i class="fa-solid fa-circle-check"></i>SKREDDERSYDDE LØSNINGER</li>
+            <li><i class="fa-solid fa-circle-check"></i>GODE SAMARBEIDSPARTNERE</li>
+        </ul>
+
+        <p>
+            Vårt team og samarbeidspartnere sørger for en skreddersydd løsning fra A-Å i prosjektet. Dersom du har spørsmål, 
+            ønsker befaring eller et tilbud, ta kontakt for en uforpliktende prat - vi hjelper deg mer enn gjerne!
+        </p>
+
+        <a href="/HTML/kontakt.html" class="button dark-btn">FÅ TILBUD</a>
+    </div>
+    
+</section>
+
+</main>
+
 <footer></footer>
 </body>
 </html>
